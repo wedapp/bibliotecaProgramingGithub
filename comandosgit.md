@@ -19,3 +19,6 @@ para crear un branch
 
 - <code>git checkout *nombre branch/tag/commit*</code>
 para cambiarse al *branch/tag/commit* que quiera
+
+- <code>git checkout -- *nombre del archivo*</code>
+para descartar cambios que no se quiere commitear
