@@ -159,7 +159,19 @@ donde `__dirname` significa que el servidor buscará en el mismo directório del
 
 3.2 - el `arquivo`, si lo encuentra.
 
-# f
+### Para instalar Express y su generador:
+`$ npm install -g express-generator`
+
+### Generar proyecto inicial Express:
+`$ express` genera un proyecto inicial con algunas configuraciones básicas para definir, como elegir el *template engine* (por default se incluye el framework Jade, pero es posible elegir EJS o Hogan) y un CSS engine (default CSS puro, pero es posible LESS, Stylus o Compass)
+
+### Para visualizar las opciones del *template engine*:
+`$ express -h`
+
+### Para crear el proyecto con Express:
+`express <nombre_del_proyecto> --ejs`
+
+### d
 
 
 ### Daniel Alves
