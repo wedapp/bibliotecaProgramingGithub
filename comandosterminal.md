@@ -3,7 +3,16 @@
 para ver el contenido del directorio que se esta en el momento
 
 - <code>ls -a</code>
-para ver el contenido *oculto* del directorio que se esta en el momento
+para ver el contenido *oculto* del directorio que se esta en el momento.
+
+- <code>ls -l</code>
+para listar todos los archivos (excepto los ocultos) del directorio actual, en formato detallado.
+
+- <code>ls -F</code>
+para listar los archivos del directorio actual, indicando el tipo de archivo.
+
+- <code>ls -laC</code>
+para listar todos los archivos (incluyendo los ocultos) del directorio actual, en formao detallado y presentarlo en columnas.
 
 - <code>cd “nome do diretório”</code>
 Use este comando para alterar um diretório. Basta colocar o nome do diretório (sem as aspas) em questão ao lado do comando antes de apertar Enter.
@@ -40,6 +49,9 @@ Este comando te ajuda a mudar o nome de um arquivo facilmente. Você também pod
 
 - <code>rm “nome do arquivo”</code>
 Já este comando é bem simples e serve apenas para deletar o arquivo que você nomear.
+
+- <code>rm -rf "nombre_directorio"</code>
+para borrar el directorio, inlcuyendo todos sus archivos y subdirectorios.
 
 - <code>Control+C</code>
 Este comando simplesmente encerra a maioria das operações sendo realizadas.
@@ -130,5 +142,32 @@ Este comando pode ser usado para modificar a senha de um dos usuários do Mac em
 
 - <code>ping</code>
 Use este comando para fazer uma rápida verificação da sua conexão com a internet. Pode ser bem útil se perceber uma lentidão na rede.
+
+- <code>cp fichero /home/datos/</code>
+para copiar el archivo o directorio denominado "fichero" al directorio "/home/datos".
+
+- <code>mv fichero /home/datos/</code>
+para mover el archivo o directorio denominado "fichero" al directorio "/home/datos".
+
+- <code>cat archivo</code>
+para visualizar el archivo denominado "archivo".
+
+- <code>man -k "palabraclave"</code>
+para visualizar todas las paginas de mantenimiento que contienen la palabra "palabraclave".
+
+- <code>more archivo</code>
+para visualizar el archivo denominado "archivo", una página a la vez. Para avanzar a la siguiente página se debe presionar la barra espaciadora.
+
+- <code>head archivo</code>
+para visualizar las 10 primeras líneas del archivo denominado "archivo".
+
+- <code>head -20 archivo</code>
+para visualizar las 20 primeras líneas del archivo denominado "archivo".
+
+- <code>tail archivo</code>
+para visualizar las 10 últimas líneas del archivo denominado "archivo".
+
+- <code>tail -20 archivo</code>
+para visualizar las 20 últimas líneas del archivo denominado "archivo".
 
 *Daniel Alves*
